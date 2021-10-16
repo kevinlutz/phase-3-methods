@@ -7,11 +7,11 @@ def greet(name)
     puts "Hello, #{name}!"
 end
 
-def greet_with_default(name = "programmer")
+def greet_with_default(name = 'programmer')
     puts "Hello, #{name}!"
 end
 
-def add(num1, num1)
+def add(num1, num2)
     num1 + num2
 end
 
@@ -19,8 +19,5 @@ def halve(num)
     if num.class != Integer
         return nil
     end
-    
     num/2
 end
-
-#return nil unless num.class == Integer
